@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
 
-st.title(" Interactive Data Dashboard")
+st.title(" High Blood Pressure Interactive Dashboard")
 
 #create file upload widget (an interactive UI element that allow users to provide input)
 uploaded_file = st.file_uploader("Choose a CSV file", type="csv")
